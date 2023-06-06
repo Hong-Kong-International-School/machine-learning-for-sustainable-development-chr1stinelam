@@ -7,7 +7,7 @@ The SDGs this project is focusing on are SDG 3: good health and wellbeing and SD
 ### The model
 The model takes in symptoms as an input and identifies what disease it is. After classifying what type of disease a person has, this will be outputted to be used for other purposes.
 
-The model has an accuracy of ()% meaning (). The model is a machine learning random forrest model, and is trained off of data from this source (), and has been cleaned to have 3 symptoms for each patient with that disease. It has a total of () diseases and () symptoms. Note that the symptoms are coded into numbers for the sake of the model, but with the code provided the given symptom should be converted to a integer.
+The model has an accuracy of 96% meaning it is generally very accurate at identifying diseses based on symptoms. The model is a machine learning random forrest model, and is trained off of data from this source https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=dataset.csv, and has been cleaned to have 3 symptoms for each patient with that disease. It has a total of 41 diseases and 133 symptoms. Note that the symptoms are coded into numbers for the sake of the model, but with the code provided the given symptom should be converted to a integer.
 
 ## Development Process
 I followed a standard development process with this model's creation, first cleaning, train test splitting, running it through a classifier, and testign accuracy. I chose a random forrest classifier as I tested a few other models (decision tree and KNN), and this one had the highest accuracy.
@@ -24,6 +24,10 @@ Initially I had two ideas of using this model.
 
 The model can be downloaded via this Github repository to be used and tested. 
 
+## Improvements
+The dataset I had needs to be considered further (note the 17 symptoms comment from earlier), and it only had 41 diseases, so if there was a dataset with more diseases and symptoms, that would make the project much better.
+
 ## List of References
+https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=dataset.csv
 https://www.worldbank.org/en/news/press-release/2015/06/12/new-who-and-world-bank-group-report-shows-that-400-million-do-not-have-access-to-essential-health-services-and-6-of-population-tipped-into-or-pushed-further-into-extreme-poverty-because-of-health-spending#:~:text=Who%20We%20Are-,New%20WHO%20and%20World%20Bank%20Group%20Report%20Shows%20that%20400,Poverty%20because%20of%20Health%20Spending
 https://sdgs.un.org/goals
